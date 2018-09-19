@@ -4,7 +4,9 @@ module OFX
       VERSION = "1.0.2"
 
       ACCOUNT_TYPES = {
-        "CHECKING" => :checking
+        "CHECKING" => :checking,
+        "SAVINGS"  => :savings,
+        "CREDITLINE" => :credit_line
       }
 
       TRANSACTION_TYPES = [
