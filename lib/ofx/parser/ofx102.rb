@@ -6,7 +6,9 @@ module OFX
       ACCOUNT_TYPES = {
         "CHECKING" => :checking,
         "SAVINGS"  => :savings,
-        "CREDITLINE" => :credit_line
+        "CREDITLINE" => :creditline,
+        "MONEYMRKT" => :moneymrkt,
+        "CREDITCARD" => :creditcard
       }
 
       TRANSACTION_TYPES = [
